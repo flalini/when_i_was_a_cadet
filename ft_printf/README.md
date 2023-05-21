@@ -8,7 +8,7 @@ ft_printf.h
 -----------
 사용된 헤더, 구조체, 함수, 매크로 선언.   
    
-#t_form 구조체
+## t_form 구조체
 >	va_list	va_para   
 >	가변인자   
    
@@ -29,7 +29,7 @@ ft_printf.h
 >	size_t	put_width;   
 >	padding 출력, 실제 출력 등의 계산용.   
 
-#t_fraction 구조체   
+## t_fraction 구조체   
 부동소수처리를 위한 구조체   
 >	char		sign;   
    
@@ -46,15 +46,15 @@ ft_printf.h
 srcs
 ----
    
-#ft_printf   
+## ft_printf   
 >	가변인자 처리 후 문자열 출력하다가 %를 만나는 경우 ft_sub_printf 호출   
    
-#ft_sub_printf   
+## ft_sub_printf   
 >	flag, width, precision, 자료 size 순서대로 처리해서 t_form에 저장   
 >	이후 서식문자에 따라 ft_display_* 호출
    
-#ft_display_*   
+## ft_display_*   
 >  각 서식문자에 맞게 t_form에 따라 동작
    
-#ft_dtof
+## ft_dtof
 >  t_fraction으로 부동소수 double을 출력할 수 있는 10진 부동소수로 변형
