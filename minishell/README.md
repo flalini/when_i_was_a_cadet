@@ -20,7 +20,7 @@ srcs
 -----------
 프로그램 시작, 초기화, 메인 루프, 커맨드 실행을 담당하는 main.c를 제외한 모든 파일은 각 서브 디렉토리로   
 
-#main.c
+## main.c
 >	main   
 >	입출력 검사 후 t_minishell 초기화   
    
@@ -40,14 +40,14 @@ srcs
 >	지정된 커맨드이면 commands에 구현된 함수들로   
 >	아니면 해당 커맨드를 utils/exec에 구현된 함수로   
    
-#commands
+## commands
 >	필요 커맨드들 구현   
    
-#parsing
+## parsing
 >	커맨드 파싱   
    
-#env
+## env
 >	환경변수 처리를 위한 함수들 구현   
    
-#utils   
+## utils   
 >	그 이외의 각종 구현   
