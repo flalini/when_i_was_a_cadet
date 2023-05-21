@@ -7,10 +7,10 @@ include
 -----------
 사용된 헤더, 구조체, 함수, 매크로 선언.   
    
-#macro.h
+## macro.h
 >	사용되는 모든 매크로 선언   
    
-#cub3d_struct.h
+## cub3d_struct.h
 >	사용되는 모든 구조체 선언   
    
 >	t_cub3d
@@ -33,47 +33,47 @@ include
 >	t_window   
 >	mlx를 이용한 윈도우와 출력할 이미지 정보   
    
-#engine.h parser.h utils.h get_next_line.h   
+## engine.h parser.h utils.h get_next_line.h   
 >	각종 함수 선언   
    
-#mlx*.h
+## mlx*.h
 >	mlx 함수들 선언   
    
 common_srcs
 -----------
 프로그램 시작, 예외사항, 에러처리, 초기화, 후킹, 프로그램 종료 등의 파일을 제외한 파일들은 서브디렉토리로   
    
-#gnl
+## gnl
 >	get_next_line   
 >	표준입력 한줄씩 처리   
    
-#parser
+## parser
 >	.cub 파일 파싱   
    
-#engine
+### engine
 >	카메라 조작, 상호작용, 화면 그리기(2d raycast, sprite, ui 등)   
    
-#utils   
+### utils   
 >	그 이외의 각종 함수   
    
 프로그램의 흐름 요약
 ---------------
 모든 상황에서 지정된 프로그램의 흐름을 벗어나는 예외사항 발생시 반드시 에러 내용을 출력해주고 프로그램 종료   
    
-main   
+## main   
 >  먼저 arg 확인하고 처리   
 >  사용할 메인 구조체 t_cub3d를 parser를 호출해서 초기화   
 >  mlx_hook으로 각종 이벤트 함수, 메인 루프 함수 준비   
 >  메인 루프에서 한 프레임씩 화면 생성해서 출력   
    
-main_loop   
+## main_loop   
 >  각 이벤트 처리 함수는 별개로 동작   
 >  메인 루프
 >  >  현 상태에 따라 카메라 조작, 상호작용, 플래그 처리   
 >  >  2d raycast 진행(천장, 바닥, 벽 그리기, 정보 저장)
 >  >  sprite 출력   
    
-parser   
+## parser   
 >  인자로 들어온 파일 열어서 줄단위 읽기      
 >  저장된 라인에서 각종 정보 분석   
 >  >  해상도, 사용되는 텍스쳐들 확인   
