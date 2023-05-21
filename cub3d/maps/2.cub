@@ -1,0 +1,21 @@
+R 2020 2020
+NO image/convert/background/wall.xpm
+SO image/convert/background/wall.xpm
+WE image/convert/background/wall.xpm
+EA image/convert/background/wall.xpm
+T 1420
+CT image/convert/background/ceiling.xpm
+FT image/convert2/background/road.xpm
+S image/convert2/background/column.xpm
+A3 image/convert2/background/stone.xpm
+A4 image/convert/skull/1.xpm image/convert/skull/2.xpm image/convert/skull/3.xpm image/convert/skull/4.xpm image/convert/skull/5.xpm image/convert/skull/6.xpm image/convert/skull/7.xpm image/convert/skull/8.xpm image/convert/skull/9.xpm image/convert/skull/10.xpm image/convert/skull/11.xpm image/convert/skull/12.xpm
+A5 image/convert/devil/1.xpm image/convert/devil/2.xpm image/convert/devil/3.xpm image/convert/devil/4.xpm image/convert/devil/5.xpm image/convert/devil/6.xpm image/convert/devil/7.xpm image/convert/devil/8.xpm image/convert/devil/9.xpm image/convert/devil/10.xpm
+A6 image/convert2/kick/kick1.xpm image/convert2/kick/kick2.xpm image/convert2/kick/kick3.xpm
+
+11111111
+1S20032111
+10303020211
+13030330521
+10303033011
+1103030111
+ 1111111

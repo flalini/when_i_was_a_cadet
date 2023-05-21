@@ -1,0 +1,33 @@
+R 848 480
+R 2020 2020
+NO textures/wall_1.xpm
+SO textures/wall_2.xpm
+WE textures/wall_3.xpm
+EA image/convert/background/wall.xpm
+T 1000
+CT image/convert/background/ceiling.xpm
+FT image/convert2/background/road.xpm
+S image/convert2/background/column.xpm
+A3 image/convert2/background/stone.xpm
+A4 image/convert/skull/1.xpm image/convert/skull/2.xpm image/convert/skull/3.xpm image/convert/skull/4.xpm image/convert/skull/5.xpm image/convert/skull/6.xpm image/convert/skull/7.xpm image/convert/skull/8.xpm image/convert/skull/9.xpm image/convert/skull/10.xpm image/convert/skull/11.xpm image/convert/skull/12.xpm
+A5 image/convert/devil/1.xpm image/convert/devil/2.xpm image/convert/devil/3.xpm image/convert/devil/4.xpm image/convert/devil/5.xpm image/convert/devil/6.xpm image/convert/devil/7.xpm image/convert/devil/8.xpm image/convert/devil/9.xpm image/convert/devil/10.xpm
+A6 image/convert2/kick/kick1.xpm image/convert2/kick/kick2.xpm image/convert2/kick/kick3.xpm
+11111111111111111111111111111
+10000000001100000000000000001
+10110000011100000000000010001
+10010000000000000000000010001
+10110000011100000000000010001
+10000000001100000111011110001
+11110111111111011100000010001
+11110111111111011101010010001
+11000000110101011100000010001
+10000000000000001100000010001
+10000000000000001102010020001
+11000000110101000500000000001
+11110111110101000000202000001
+10000000001100000100000010001
+10000000000000002000204001001
+10000000001000010000000003001
+10000000001101000000N00000001
+10000000000120000001010000001
+11111111111111111111111111111
