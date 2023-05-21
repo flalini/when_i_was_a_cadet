@@ -24,12 +24,12 @@ Philosophers
 공통적인 구현방식
 ------
    
-#main   
+### main   
 >  인자가 유효한지 검사   
 >  각종 초기화   
 >  thread.c 혹은 fork.c에 구현된 start_philo 함수 호출   
    
-#start_philo
+### start_philo
 >  must_eat 이 존재하는 경우 모든 철학자의 먹은 횟수를 감시하는 mornitor_eat 준비한다   
 >  각 철학자(routine)를 준비한다   
 >  철학자가 자는 도중에 스스로를 감시할 수 없기에 각 철학자를 감시하는 각각의 mornitor를 준비한다   
