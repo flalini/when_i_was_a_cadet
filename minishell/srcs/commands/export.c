@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   export.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ijang <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: ijang <flan101544@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/15 10:21:02 by ijang             #+#    #+#             */
-/*   Updated: 2021/02/20 17:06:14 by ijang            ###   ########.fr       */
+/*   Updated: 2023/05/25 14:51:47 by ijang            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,9 +61,7 @@ void		export_cmd3(t_minishell *minishell, t_token *args,
 		char **split, int jn)
 {
 	int		ex;
-	int		i;
 
-	i = -1;
 	ex = 0;
 	ft_is_in_stri('=', args->word) == -1 ? ex = 1 : 0;
 	if (!(modify_env_list(minishell, split, ex, jn)))

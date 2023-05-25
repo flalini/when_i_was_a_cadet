@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   env_utils2.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ijang <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: ijang <flan101544@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/17 21:33:53 by ijang             #+#    #+#             */
-/*   Updated: 2021/02/17 23:19:16 by ijang            ###   ########.fr       */
+/*   Updated: 2023/05/25 14:52:21 by ijang            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 
 void	env_cmd_export(t_list **begin)
 {
-	int		i;
 	t_list	*tmp;
 
-	i = 0;
 	tmp = *begin;
 	if (!*begin)
 		return ;
